@@ -1,0 +1,101 @@
+body {
+  background-color: #333333;
+  background: linear-gradient(90deg, hsla(263, 42%, 65%, 1) 0%, hsla(319, 77%, 86%, 1) 100%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 40px;
+  color: #333333;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f7f7f7;
+  color: #333333;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+form button {
+  background-color: #f85c70;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+  background-color: #ed3449;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+li.complete {
+  background-color: #d0f0c0;
+  color: #333333;
+}
+
+li button {
+  background-color: #f85c70;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+li button:hover {
+  background-color: #ed3449;
+}
+
+.completed-tasks {
+  margin-top: 40px;
+}
