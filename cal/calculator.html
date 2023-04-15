@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Basic Calculator</h1>
+	<div id="calculator">
+		<div id="result"></div>
+		<button onclick="clearResult()" id="clear">C</button>
+		<button onclick="appendToResult('(')" class="operator">(</button>
+		<button onclick="appendToResult(')')" class="operator">)</button>
+		<button onclick="appendToResult('/')" class="operator">/</button>
+		<button onclick="appendToResult('*')" class="operator">*</button>
+		<button onclick="appendToResult('+')" class="operator">+</button>
+		<button onclick="appendToResult('9')" class="number">9</button>
+		<button onclick="appendToResult('8')" class="number">8</button>
+		<button onclick="appendToResult('7')" class="number">7</button>
+		<button onclick="appendToResult('6')" class="number">6</button>
+		<button onclick="appendToResult('5')" class="number">5</button>
+		<button onclick="appendToResult('-')" class="operator">-</button>
+		<button onclick="appendToResult('4')" class="number">4</button>
+		<button onclick="appendToResult('3')" class="number">3</button>
+		<button onclick="appendToResult('2')" class="number">2</button>
+		<button onclick="appendToResult('1')" class="number">1</button>
+		<button onclick="appendToResult('0')" class="number">0</button>
+		<button onclick="appendToResult('.')" class="decimal">.</button>
+		<button onclick="calculateResult()" id="equals">=</button>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
